@@ -1,5 +1,5 @@
-List of Third Party Projects using openPMD
-------------------------------------------
+Projects using openPMD
+----------------------
 
 The following list of projects use the
 **openPMD** standard to describe their data.
@@ -23,9 +23,14 @@ The following list of projects use the
 - [Warp](http://warp.lbl.gov) (LBNL & LLNL, United States)
   - domain: electro-dynamic/static particle-in-cell code
   - [repository](https://bitbucket.org/berkeleylab/warp) (BSD-3-Clause-LBNL)
-  - status: currently implementing (base standard + ED-PIC)
+  - status: implemented (base standard + ED-PIC)
 
 ### Data Processing and Visualization
+
+- [openPMD viewer](https://github.com/openPMD/openPMD-viewer) (LBNL, DESY)
+  - domain: high level python api and interactive IPython notebook GUI
+  - [repository](https://github.com/openPMD/openPMD-viewer) (BSD-3-Clause-LBNL)
+  - status: implemented
 
 - [pyDive](https://github.com/ComputationalRadiationPhysics/pyDive) (HZDR, Germany)
   - domain: parallel numpy for ipython notebook
@@ -36,6 +41,11 @@ The following list of projects use the
   - domain: serial post-processing tool for particle-in-cell codes
   - [repository](https://github.com/skuschel/postpic) (GPLv3+)
   - status: currently implementing (reader for base standard + ED-PIC)
+
+- [yt project](http://yt-project.or)
+  - domain: analysis and visualization
+  - [repository](https://github.com/openPMD/openPMD-yt) (BSD-3-Clause)
+  - status: currently implementing reader
 
 ### Additional Tools
 
