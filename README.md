@@ -42,7 +42,7 @@ The following list of projects use the
   - [repository](https://github.com/skuschel/postpic) (GPLv3+)
   - status: currently implementing (reader for base standard + ED-PIC)
 
-- [yt project](http://yt-project.or)
+- [yt project](http://yt-project.org)
   - domain: analysis and visualization
   - [repository](https://github.com/openPMD/openPMD-yt) (BSD-3-Clause)
   - status: currently implementing reader
