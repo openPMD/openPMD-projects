@@ -38,9 +38,9 @@ The following list of projects use the
   - status: currently implementing reader and writer (base standard + ED-PIC)
 
 - [postpic](https://github.com/skuschel/postpic) (U Jena, Germany)
-  - domain: serial post-processing tool for particle-in-cell codes
+  - domain: post-processing and visualization tool for particle-in-cell data
   - [repository](https://github.com/skuschel/postpic) (GPLv3+)
-  - status: currently implementing (reader for base standard + ED-PIC)
+  - status: implemented (hdf5 reader for base standard + ED-PIC)
 
 - [yt project](http://yt-project.org)
   - domain: analysis and visualization
