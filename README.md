@@ -2,7 +2,8 @@ Projects using openPMD
 ----------------------
 
 The following list of projects use the
-**openPMD** standard to describe their data.
+[**openPMD** standard](https://github.com/openPMD/openPMD-standard)
+to describe their data.
 
 ### Libraries
 
