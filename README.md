@@ -54,16 +54,41 @@ The following list of projects use the
   - [development repository](https://github.com/openPMD/openPMD-yt) (our fork)
   - status: currently implementing reader
 
-### Additional Tools
-
-We provide and collect further tools, software modules and plugins for popular
-frameworks in our GitHub organization:
-  https://github.com/openPMD
-
-For third-party frameworks, the general idea is to implement our readers
+Note: For third-party frameworks, the general idea is to implement our readers
 [upstream](https://en.wikipedia.org/wiki/Upstream_%28software_development%29)
 as soon as they are working.
-  
-Also be aware that *all existing tools* for general (HDF5, ADIOS, ...) file handling are also usable!
 
 Please check the individual repositories and feel free to contribute.
+
+### Basic Tools
+
+Please be aware that *all existing tools* for general file handling
+(HDF5, ADIOS, ...) are also usable with openPMD flavoured files!
+
+A non-complete list of third party software for your consideration:
+
+- [HDF Compass](https://github.com/HDFGroup/hdf-compass) (HDF Group)
+  - domain: viewer for HDF5 and related formats
+  - [repository](https://github.com/HDFGroup/hdf-compass) (BSD-3-Clause-HDF)
+  - [development repository](https://github.com/ComputationalRadiationPhysics/hdf-compass)
+    (our fork for ADIOS support)
+  - status: HZDR is currently implementing an
+            [ADIOS reader](https://github.com/ComputationalRadiationPhysics/hdf-compass)
+
+- [HDFView](https://www.hdfgroup.org/products/java/hdfview/) (HDF Group)
+  - domain: viewer for HDF5
+  - [download](https://www.hdfgroup.org/products/java/hdfview/) (BSD-3-Clause-HDF)
+
+- HDF5 command line tools (HDF Group)
+  - domain: HDF5
+  - examples: `h5ls`, `h5dump`, `h5diff`, `h5repack`, `gif2h5`, ...
+
+- ADIOS command line tools (ADIOS Group, United States)
+  - domain: ADIOS
+  - examples: `bpls`, `bpdump`, `bpdiff`, `bp2bp`, `bp2h5`, ...
+
+- [png2gas](https://github.com/ComputationalRadiationPhysics/picongpu/tree/master/src/tools/png2gas) (HZDR, Germany)
+  - domain: convert a 2D png image into a 3D density profile,
+            useful for particle-in-cell simulations
+  - [repository](https://github.com/ComputationalRadiationPhysics/picongpu/tree/master/src/tools/png2gas) (GPLv3+)
+  - status: needs adjustments for openPMD 1.0.0
