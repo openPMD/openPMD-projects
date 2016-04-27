@@ -23,20 +23,20 @@ the work provided in those for our format handling.
 - [PIConGPU](http://picongpu.hzdr.de) (HZDR, Germany)
   - domain: electro-dynamic particle-in-cell code
   - [repository](https://github.com/ComputationalRadiationPhysics/picongpu) (GPLv3+/LGPLv3+)
-  - maintainers: A Huebl @ax3l, M Bussmann @bussmann
+  - maintainers: A Huebl @ax3l, M Bussmann @bussmann et al.
   - status: implemented in `dev` (base standard + ED-PIC)
 
 - [Warp](http://warp.lbl.gov) (LBNL & LLNL, United States)
   - domain: electro-dynamic/static particle-in-cell code
   - [repository](https://bitbucket.org/berkeleylab/warp) (BSD-3-Clause-LBNL)
-  - maintainers: JL Vay @jlvay, D Grote @dpgrote, R Lehe @RemiLehe
+  - maintainers: JL Vay @jlvay, D Grote @dpgrote, R Lehe @RemiLehe et al.
   - status: implemented (base standard + ED-PIC)
 
 - FBPIC (LBNL, DESY)
   - domain: electro-dynamic particle-in-cell code with spetral solver and
             Fourier-Bessel decomposition in cylindrical geometry
   - *open source release planned*
-  - maintainers: R Lehe @RemiLehe, M Kirchen @MKirchen
+  - maintainers: R Lehe @RemiLehe, M Kirchen @MKirchen et al.
   - status: implemented (base standard + ED-PIC)
 
 ### Data Processing and Visualization
@@ -44,7 +44,7 @@ the work provided in those for our format handling.
 - [openPMD viewer](https://github.com/openPMD/openPMD-viewer) (LBNL, DESY)
   - domain: high level python api and interactive IPython notebook GUI
   - [repository](https://github.com/openPMD/openPMD-viewer) (BSD-3-Clause-LBNL)
-  - maintainer: R Lehe @RemiLehe
+  - maintainer: R Lehe @RemiLehe et al.
   - status: implemented
 
 - [postpic](https://github.com/skuschel/postpic) (U Jena, Germany)
@@ -90,12 +90,12 @@ Please check the individual repositories and feel free to contribute.
 - [ADIOS](https://www.olcf.ornl.gov/center-projects/adios/) (ORNL, United States; `third party`)
   - domain: libraries for reading & writing the HDF5 format C/C++/Fortran/Java/Python
   - [repository](https://github.com/ornladios/ADIOS) (BSD-3-Clause-DOE)
-  - maintainer: N Podhorszki @pnobert, S Klasky @sklasky
+  - maintainer: N Podhorszki @pnobert, S Klasky @sklasky at al.
 
 - [h5py](http://www.h5py.org/) (`third party`)
   - domain: python bindings for HDF5
   - [repository](https://github.com/h5py/h5py)
-  - maintainer: A Collette @andrewcollette
+  - maintainer: A Collette @andrewcollette et al.
 
 ### Tools & Converters
 
@@ -131,7 +131,7 @@ A non-complete list of third party software for your consideration:
 
 - ADIOS command line tools (ORNL, United States; `third party`)
   - domain: ADIOS file handling
-  - maintainer: N Podhorszki @pnorbert, S Klasky @sklasky
+  - maintainers: N Podhorszki @pnorbert, S Klasky @sklasky et al.
   - examples: `bpls`, `bpdump`, `bpdiff`, `bp2bp`, `bp2h5`, ...
 
 - [png2gas](https://github.com/ComputationalRadiationPhysics/picongpu/tree/master/src/tools/png2gas) (HZDR, Germany)
