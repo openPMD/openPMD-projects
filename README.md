@@ -142,14 +142,14 @@ A non-complete list of third party software for your consideration:
   - status: [needs adjustments for openPMD 1.0.0](https://github.com/ComputationalRadiationPhysics/picongpu/issues/1446)
 
 - XDMF file creation
-  - domain: light-weight, xml meta file creation for reading in VTK (e.g., ParaView, VisIt)
+  - domain: light-weight, xml meta file creation for (serial) reading in VTK (e.g., ParaView, VisIt)
   - [repository](https://github.com/openPMD/openPMD-tools)
   - note: XDMF is a `third party` file format compatible with openPMD
   - maintainers: originally by PIConGPU team
   - status: [needs adjustments for openPMD 1.0.0](https://github.com/openPMD/openPMD-tools/issues/1)
 
 - VizSchema schema additions
-  - domain: light-weight, in-file attribute creation for reading in VTK (e.g., ParaView, VisIt)
+  - domain: light-weight, in-file attribute creation for (serial) reading in VTK (e.g., ParaView, VisIt)
   - [repository](https://github.com/openPMD/openPMD-tools)
   - note: VizSchema is a `third party` file markup compatible with openPMD
   - maintainers: *nobody yet*
