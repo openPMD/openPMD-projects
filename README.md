@@ -139,7 +139,7 @@ A non-complete list of third party software for your consideration:
             useful for particle-in-cell simulations
   - [repository](https://github.com/ComputationalRadiationPhysics/picongpu/tree/master/src/tools/png2gas) (GPLv3+)
   - maintainer: originally by PIConGPU team
-  - status: needs adjustments for openPMD 1.0.0
+  - status: [needs adjustments for openPMD 1.0.0](https://github.com/ComputationalRadiationPhysics/picongpu/issues/1446)
 
 - XDMF file creation
   - domain: light-weight, xml meta file creation for reading in VTK (e.g., ParaView, VisIt)
