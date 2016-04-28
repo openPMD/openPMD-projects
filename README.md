@@ -42,7 +42,7 @@ the work provided in those for our format handling.
 
 ### Data Processing and Visualization
 
-- [openPMD viewer](https://github.com/openPMD/openPMD-viewer) (LBNL, DESY)
+- [openPMD-viewer](https://github.com/openPMD/openPMD-viewer) (LBNL, DESY)
   - domain: high level python api and interactive IPython notebook GUI
   - [repository](https://github.com/openPMD/openPMD-viewer) (BSD-3-Clause-LBNL)
   - maintainer: R Lehe @RemiLehe et al.
