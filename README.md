@@ -40,6 +40,12 @@ the work provided in those for our format handling.
   - maintainers: R Lehe @RemiLehe, M Kirchen @MKirchen et al.
   - status: implemented (base standard + ED-PIC)
 
+- SIMEX Platform (EUCALL, European XFEL)
+  - domain: software platform for simulation of advanced photon experiments
+  - [repository](https://github.com/eucall-software/simex_platform) (GPLv3+)
+  - maintainer: C Fortmann-Grote @CFGrote
+  - status: currently implementing (base standard)
+
 ### Data Processing and Visualization
 
 - [openPMD-viewer](https://github.com/openPMD/openPMD-viewer) (LBNL, DESY)
