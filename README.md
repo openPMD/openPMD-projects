@@ -33,10 +33,10 @@ the work provided in those for our format handling.
   - maintainers: JL Vay @jlvay, D Grote @dpgrote, R Lehe @RemiLehe et al.
   - status: implemented (base standard + ED-PIC)
 
-- FBPIC (LBNL, DESY)
+- [FBPIC](http://fbpic.github.io) (LBNL, CFEL Hamburg University)
   - domain: electro-dynamic particle-in-cell code with spetral solver and
             Fourier-Bessel decomposition in cylindrical geometry
-  - *open source release planned*
+  - [repository](https://github.com/fbpic/fbpic) (BSD-3-Clause-LBNL)
   - maintainers: R Lehe @RemiLehe, M Kirchen @MKirchen et al.
   - status: implemented (base standard + ED-PIC)
 
