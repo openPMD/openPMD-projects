@@ -63,10 +63,11 @@ the work provided in those for our format handling.
 - [yt project](http://yt-project.org) ([Members](http://yt-project.org/members.html), `third party`)
   - domain: analysis and visualization
   - [repository](https://bitbucket.org/yt_analysis/yt) (BSD-3-Clause)
-  - [development repository](https://github.com/openPMD/openPMD-yt) (our fork)
+  - [openPMD tutorial](https://gist.github.com/C0nsultant/5808d5f61b271b8f969d5c09f5ca91dc)
+  - [openPMD wishlist/issue tracker](https://bitbucket.org/C0nsultant/openpmd)
   - maintainers: [yt project members](http://yt-project.org/members.html)
-                 (HZDR: contribution)
-  - status: HZDR is currently implementing a reader
+                 (HZDR: openPMD reader contribution by @C0nsultant)
+  - status: implemented (hdf5 reader for base standard in `3.4-dev`)
 
 Note: For third-party frameworks, the general idea is to implement our readers
 [upstream](https://en.wikipedia.org/wiki/Upstream_%28software_development%29)
