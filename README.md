@@ -64,7 +64,7 @@ the work provided in those for our format handling.
   - domain: analysis and visualization
   - [repository](https://bitbucket.org/yt_analysis/yt) (BSD-3-Clause)
   - [openPMD tutorial](https://gist.github.com/C0nsultant/5808d5f61b271b8f969d5c09f5ca91dc)
-  - [openPMD wishlist/issue tracker](https://bitbucket.org/C0nsultant/openpmd)
+  - [openPMD wishlist/issue tracker](https://bitbucket.org/C0nsultant/openpmd/issues)
   - maintainers: [yt project members](http://yt-project.org/members.html)
                  (HZDR: openPMD reader contribution by @C0nsultant)
   - status: implemented (hdf5 reader for base standard in `3.4-dev`)
