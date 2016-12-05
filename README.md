@@ -25,7 +25,7 @@ the work provided in those for our format handling.
   - domain: electro-dynamic particle-in-cell code
   - [repository](https://github.com/ComputationalRadiationPhysics/picongpu) (GPLv3+/LGPLv3+)
   - maintainers: A Huebl @ax3l, M Bussmann @bussmann et al.
-  - status: implemented in `dev` (base standard + ED-PIC)
+  - status: implemented (base standard + ED-PIC)
 
 - [Warp](http://warp.lbl.gov) (LBNL & LLNL, United States)
   - domain: electro-dynamic/static particle-in-cell code
@@ -44,7 +44,14 @@ the work provided in those for our format handling.
   - domain: software platform for simulation of advanced photon experiments
   - [repository](https://github.com/eucall-software/simex_platform) (GPLv3+)
   - maintainer: C Fortmann-Grote @CFGrote
-  - status: currently implementing (base standard)
+  - status: implemented (base standard)
+
+- ParaTAXIS (HZDR, Germany)
+  - domain: parallel tracer for arbitrary X-ray interaction and scattering
+  - [repository](https://github.com/ComputationalRadiationPhysics/parataxis) (GPLv3+)
+  - maintainers: M Bussmann @bussmann et al.
+  - original author: A Grund @Flamefire
+  - status: implemented (base standard for X-ray laser & density profiles)
 
 ### Data Processing and Visualization
 
@@ -54,12 +61,6 @@ the work provided in those for our format handling.
   - maintainer: R Lehe @RemiLehe et al.
   - status: implemented
 
-- [postpic](https://github.com/skuschel/postpic) (U Jena, Germany)
-  - domain: post-processing and visualization tool for particle-in-cell data
-  - [repository](https://github.com/skuschel/postpic) (GPLv3+)
-  - maintainer: S Kuschel @skuschel
-  - status: implemented (hdf5 reader for base standard + ED-PIC)
-
 - [yt project](http://yt-project.org) ([Members](http://yt-project.org/members.html), `third party`)
   - domain: analysis and visualization
   - [repository](https://bitbucket.org/yt_analysis/yt) (BSD-3-Clause)
@@ -67,7 +68,20 @@ the work provided in those for our format handling.
   - [openPMD wishlist/issue tracker](https://bitbucket.org/C0nsultant/openpmd/issues)
   - maintainers: [yt project members](http://yt-project.org/members.html)
                  (HZDR: openPMD reader contribution by @C0nsultant)
-  - status: implemented (hdf5 reader for base standard in `3.4-dev`)
+  - status: implemented (HDF5 reader for base standard in `3.4-dev`)
+
+- [VisIt](https://visit.llnl.gov) (LLNL, `third party`)
+  - domain: analysis and visualization
+  - [repository](http://www.visitusers.org/index.php?title=Version_Control) (BSD-3-Clause)
+  - maintainers: VisIt collaborators
+    (LBNL: reader plugin contribution by Mathieu Lobet, ORNL: support by David Pugmire)
+  - status: implementing (HDF5 & ADIOS reader plugin for base standard)
+
+- [postpic](https://github.com/skuschel/postpic) (U Jena, Germany)
+  - domain: post-processing and visualization tool for particle-in-cell data
+  - [repository](https://github.com/skuschel/postpic) (GPLv3+)
+  - maintainer: S Kuschel @skuschel
+  - status: implemented (HDF5 reader for base standard + ED-PIC)
 
 Note: For third-party frameworks, the general idea is to implement our readers
 [upstream](https://en.wikipedia.org/wiki/Upstream_%28software_development%29)
@@ -123,8 +137,8 @@ A non-complete list of third party software for your consideration:
   - [repository](https://github.com/HDFGroup/hdf-compass) (BSD-3-Clause-HDF)
   - [development repository](https://github.com/ComputationalRadiationPhysics/hdf-compass)
     (our fork for ADIOS support)
-  - maintainer: HDF Group (HZDR: contribution)
-  - status: HZDR is currently implementing an
+  - maintainer: HDF Group (HZDR: ADIOS reader contribution by @michaelsippel)
+  - status: HZDR implemented an
             [ADIOS reader](https://github.com/ComputationalRadiationPhysics/hdf-compass)
 
 - [HDFView](https://www.hdfgroup.org/products/java/hdfview/) (HDF Group; `third party`)
@@ -156,9 +170,11 @@ A non-complete list of third party software for your consideration:
   - maintainers: originally by PIConGPU team
   - status: [needs adjustments for openPMD 1.0.0](https://github.com/openPMD/openPMD-tools/issues/1)
 
-- VizSchema schema additions
-  - domain: light-weight, in-file attribute creation for (serial) reading in VTK (e.g., ParaView, VisIt)
+- VizSchema or Visualization Schema additions
+  - domain: light-weight, in-file attribute creation for (serial) reading in
+            VTK (e.g., ParaView, VisIt)
   - [repository](https://github.com/openPMD/openPMD-tools)
-  - note: VizSchema is a `third party` file markup compatible with openPMD
+  - note: VizSchema and Visualization Schema are two independent,
+          `third party` file markups compatible with openPMD
   - maintainers: *nobody yet*
   - status: [planned](https://github.com/openPMD/openPMD-tools/issues/2)
