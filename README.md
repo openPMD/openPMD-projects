@@ -67,8 +67,16 @@ the work provided in those for our format handling.
   - [openPMD tutorial](https://gist.github.com/C0nsultant/5808d5f61b271b8f969d5c09f5ca91dc)
   - [openPMD wishlist/issue tracker](https://bitbucket.org/C0nsultant/openpmd/issues)
   - maintainers: [yt project members](http://yt-project.org/members.html)
-                 (HZDR: openPMD reader contribution by @C0nsultant)
+  (HZDR: openPMD reader contribution by @C0nsultant)
   - status: implemented (HDF5 reader for base standard in `3.4-dev`)
+  - installation instructions: in order to install version `3.4-dev`
+  of `yt`, follow these steps:
+  ```
+  hg clone https://bitbucket.org/yt_analysis/yt
+  cd yt
+  hg update yt
+  python setup.py install
+  ```
 
 - [VisIt](https://visit.llnl.gov) (LLNL, `third party`)
   - domain: analysis and visualization
