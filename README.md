@@ -97,7 +97,8 @@ Please check the individual repositories and feel free to contribute.
   - maintainers: F Schmitt @f-schmitt-zih, A Huebl @ax3l
   - status:
     - 1.4.0+: full API available to fulfill the standard (read+write)
-    - 2.0.0+ (upcoming): high-level interface for openPMD objects (base standard)
+    - 2.0.0+ ([upcoming](https://github.com/ComputationalRadiationPhysics/libopenPMD)):
+      high-level interface for openPMD objects (base standard)
 
 - [pyDive](https://github.com/ComputationalRadiationPhysics/pyDive) (HZDR, Germany)
   - domain: parallel numpy for ipython notebook
