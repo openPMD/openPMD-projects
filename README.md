@@ -73,9 +73,10 @@ the work provided in those for our format handling.
 - [VisIt](https://visit.llnl.gov) (LLNL, `third party`)
   - domain: analysis and visualization
   - [repository](http://www.visitusers.org/index.php?title=Version_Control) (BSD-3-Clause)
+  - [plugin repository](https://github.com/openPMD/openPMD-visit-plugin) (BSD-3-Clause-LBNL)
   - maintainers: VisIt collaborators
     (LBNL: reader plugin contribution by Mathieu Lobet, ORNL: support by David Pugmire)
-  - status: implementing (HDF5 & ADIOS reader plugin for base standard)
+  - status: implemented HDF5 reader plugin (ADIOS planned) for base standard
 
 - [postpic](https://github.com/skuschel/postpic) (U Jena, Germany)
   - domain: post-processing and visualization tool for particle-in-cell data
