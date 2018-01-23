@@ -74,7 +74,8 @@ the work provided in those for our format handling.
   - [openPMD wishlist/issue tracker](https://bitbucket.org/C0nsultant/openpmd/issues)
   - maintainers: [yt project members](http://yt-project.org/members.html)
                  (HZDR: openPMD reader contribution by @C0nsultant)
-  - status: implemented (HDF5 reader for base standard in `master`)
+  - status:
+    - 3.4.0+: implemented (HDF5 reader for base standard)
 
 - [VisIt](https://visit.llnl.gov) (LLNL, `third party`)
   - domain: analysis and visualization
