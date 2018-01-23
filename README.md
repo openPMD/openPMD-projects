@@ -16,8 +16,14 @@ the work provided in those for our format handling.
   - contributions: [full list of contributors](https://github.com/openPMD/openPMD-standard/blob/latest/AUTHORS.md)
   - [repository](https://github.com/openPMD/openPMD-standard)
     ([CC-BY 4.0](https://github.com/openPMD/openPMD-standard/releases))
-  - status: [`1.0.0` released](https://github.com/openPMD/openPMD-standard/releases),
-            doi: [10.5281/zenodo.33624](https://dx.doi.org/10.5281/zenodo.33624)
+  - status:
+    - [`1.0.0` released](https://github.com/openPMD/openPMD-standard/releases/tag/1.0.0),
+      doi: [10.5281/zenodo.33624](https://dx.doi.org/10.5281/zenodo.33624)
+    - [`1.0.1` released](https://github.com/openPMD/openPMD-standard/releases/tag/1.0.1),
+      doi: [10.5281/zenodo.1069534](https://dx.doi.org/10.5281/zenodo.1069534)
+    - [`1.1.0` reviewing](https://github.com/openPMD/openPMD-standard/projects/2)
+    - [`2.0.0` planning](https://github.com/openPMD/openPMD-standard/projects/3)
+
 
 ### Scientific Simulations
 
