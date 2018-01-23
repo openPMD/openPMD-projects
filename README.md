@@ -99,6 +99,12 @@ Please check the individual repositories and feel free to contribute.
 
 ### Libraries
 
+- [Fortran openPMD writer](https://github.com/UCLA-Plasma-Simulation-Group/Fortran-OpenPMD-File-Writers) (UCLA, USA)
+  - domain: Fortran 2003 HDF5 File Writers in openPMD Standard 
+  - [repository](https://github.com/UCLA-Plasma-Simulation-Group/Fortran-OpenPMD-File-Writers)
+  - maintainer: Weiming An @caozigao
+  - status: openPMD 1.0 implemented
+
 - [libSplash](https://github.com/ComputationalRadiationPhysics/libSplash) (TU Dresden/HZDR, Germany)
   - domain: high-level C++ HDF5 library for mesh and particle records
   - [repository](https://github.com/ComputationalRadiationPhysics/libSplash) (LGPLv3+)
