@@ -180,16 +180,16 @@ A non-complete list of third party software for your consideration:
 
 - XDMF file creation
   - domain: light-weight, xml meta file creation for (serial) reading in VTK (e.g., ParaView, VisIt)
-  - [repository](https://github.com/openPMD/openPMD-tools)
+  - [repository](https://github.com/openPMD/openPMD-converter)
   - note: XDMF is a `third party` meta file format compatible with openPMD
   - maintainers: originally by PIConGPU team
-  - status: [needs adjustments for openPMD 1.0.0](https://github.com/openPMD/openPMD-tools/issues/1)
+  - status: [needs adjustments for openPMD 1.0.0](https://github.com/openPMD/openPMD-converter/issues/1)
 
 - VizSchema or Visualization Schema additions
   - domain: light-weight, in-file attribute creation for (serial) reading in
             VTK (e.g., ParaView, VisIt)
-  - [repository](https://github.com/openPMD/openPMD-tools)
+  - [repository](https://github.com/openPMD/openPMD-converter)
   - note: VizSchema and Visualization Schema are two independent,
           `third party` file markups compatible with openPMD
   - maintainers: *nobody yet*
-  - status: [planned](https://github.com/openPMD/openPMD-tools/issues/2)
+  - status: [planned](https://github.com/openPMD/openPMD-converter/issues/2)
