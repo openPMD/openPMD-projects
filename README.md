@@ -83,7 +83,7 @@ the work provided in those for our format handling.
   - [repository](http://www.visitusers.org/index.php?title=Version_Control) (BSD-3-Clause)
   - [plugin repository](https://github.com/openPMD/openPMD-visit-plugin) (BSD-3-Clause-LBNL)
   - maintainers: VisIt collaborators
-    (LBNL: reader plugin contribution by Mathieu Lobet @xxirii, ORNL: support by David Pugmire)
+    (LBNL: reader plugin contribution by M Lobet @xxirii, ORNL: support by D Pugmire)
   - status: implemented HDF5 reader plugin (ADIOS planned) for base standard
 
 - [ParaView](https://www.paraview.org/) (Kitware, `third party`)
@@ -91,7 +91,7 @@ the work provided in those for our format handling.
   - [repository](https://gitlab.kitware.com/paraview/paraview) (BSD-3-Clause)
   - [plugin repository](https://github.com/jfavre/ParaViewDev)
   - maintainers: Kitware
-    (CSCS: reader plugin contribution by Jean Favre @jfavre)
+    (CSCS: reader plugin contribution by J Favre @jfavre)
   - status: implementing an ADIOS1 reader plugin (HDF5 planned) for base standard
 
 - [postpic](https://github.com/skuschel/postpic) (U Jena, Germany)
