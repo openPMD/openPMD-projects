@@ -21,7 +21,7 @@ the work provided in those for our format handling.
       doi: [10.5281/zenodo.33624](https://dx.doi.org/10.5281/zenodo.33624)
     - [`1.0.1` released](https://github.com/openPMD/openPMD-standard/releases/tag/1.0.1),
       doi: [10.5281/zenodo.1069534](https://dx.doi.org/10.5281/zenodo.1069534)
-    - [`1.1.0` released](https://github.com/openPMD/openPMD-standard/releases/tag/1.1.0)
+    - [`1.1.0` released](https://github.com/openPMD/openPMD-standard/releases/tag/1.1.0),
       doi: [10.5281/zenodo.1167843](https://doi.org/10.5281/zenodo.1167843)
     - [`2.0.0` in progress](https://github.com/openPMD/openPMD-standard/projects/3)
 
