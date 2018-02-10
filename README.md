@@ -76,7 +76,8 @@ the work provided in those for our format handling.
   - maintainers: [yt project members](http://yt-project.org/members.html)
                  (HZDR: openPMD reader contribution by @C0nsultant)
   - status:
-    - 3.4.0+: implemented (HDF5 reader for base standard)
+    - 3.4.0+: implemented (HDF5 reader for base standard: 1.0.0-1.0.1)
+    - 3.5.0+: upcoming (HDF5 reader for base standard: 1.0.0-1.1.0)
 
 - [VisIt](https://visit.llnl.gov) (LLNL, `third party`)
   - domain: analysis and visualization
