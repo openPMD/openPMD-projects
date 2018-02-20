@@ -109,26 +109,26 @@ Please check the individual repositories and feel free to contribute.
 
 ### Libraries
 
+- [openPMD-api](https://openpmd-api.readthedocs.io/) (HZDR, Germany)
+  - domain: C++ & Python API for writing & reading (H5, BP, ...), serial & parallel (MPI)
+  - [repository](https://github.com/openPMD/openPMD-api) (LGPLv3+)
+  - maintainers: F Koller @C0nsultant, A Huebl @ax3l
+  - status:
+    - implemented: HDF5 serial & parallel C++ API for base standard (1.0.0 - 1.1.0)
+    - first stable release soon
+  - will supersede our legacy C++ library:
+    - [libSplash](https://github.com/ComputationalRadiationPhysics/libSplash) (TU Dresden/HZDR, Germany)
+      - domain: high-level C++ HDF5 library for mesh and particle records
+      - [repository](https://github.com/ComputationalRadiationPhysics/libSplash) (LGPLv3+)
+      - maintainers: F Schmitt @f-schmitt-zih, A Huebl @ax3l
+      - status:
+        - 1.4.0+: full API available to fulfill the standard (read+write)
+
 - [Fortran openPMD writer](https://github.com/UCLA-Plasma-Simulation-Group/Fortran-OpenPMD-File-Writers) (UCLA, USA)
   - domain: Fortran 2003 HDF5 File Writers in openPMD Standard 
   - [repository](https://github.com/UCLA-Plasma-Simulation-Group/Fortran-OpenPMD-File-Writers)
   - maintainer: Weiming An @caozigao
   - status: openPMD 1.0 implemented
-
-- [libSplash](https://github.com/ComputationalRadiationPhysics/libSplash) (TU Dresden/HZDR, Germany)
-  - domain: high-level C++ HDF5 library for mesh and particle records
-  - [repository](https://github.com/ComputationalRadiationPhysics/libSplash) (LGPLv3+)
-  - maintainers: F Schmitt @f-schmitt-zih, A Huebl @ax3l
-  - status:
-    - 1.4.0+: full API available to fulfill the standard (read+write)
-    - 2.0.0+ ([upcoming](https://github.com/ComputationalRadiationPhysics/libopenPMD)):
-      high-level interface for openPMD objects (base standard)
-
-- [pyDive](https://github.com/ComputationalRadiationPhysics/pyDive) (HZDR, Germany)
-  - domain: parallel numpy for ipython notebook
-  - [repository](https://github.com/ComputationalRadiationPhysics/pyDive) (GPLv3+/LGPLv3+)
-  - maintainer: H Burau @Heikman
-  - status: currently implementing reader and writer (base standard + ED-PIC)
 
 - [HDF5](https://www.hdfgroup.org/HDF5/) (`third party`)
   - domain: libraries for reading & writing the HDF5 format C/C++/Fortran
@@ -151,11 +151,17 @@ Please be aware that *all existing tools* for general file handling
 
 A non-complete list of third party software for your consideration:
 
-- validator scripts (HZDR, LBNL)
-  - domain: scripts to validate files according to the `openPMD standard`
+- openPMD-validator (HZDR, LBNL)
+  - domain: scripts and python module to validate files according to the `openPMD standard`
   - [repository](https://github.com/openPMD/openPMD-validator) (ISC)
   - maintainer: A Huebl @ax3l, R Lehe @RemiLehe
   - status: implemented (base standard + ED-PIC)
+
+- openPMD-updater (HZDR, LBNL)
+  - domain: scripts and python module to update openPMD files to newer versions of the `openPMD standard`
+  - [repository](https://github.com/openPMD/openPMD-updater) (ISC)
+  - maintainer: A Huebl @ax3l, R Lehe @RemiLehe
+  - status: currently implementing update routines for openPMD 1.0/1.1 to (upcoming) openPMD 2.0
 
 - [HDF Compass](https://github.com/HDFGroup/hdf-compass) (HDF Group; `third party`)
   - domain: viewer for HDF5 and related formats
