@@ -60,6 +60,13 @@ the work provided in those for our format handling.
   - original author: A Grund @Flamefire
   - status: implemented (base standard for X-ray laser & density profiles)
 
+- UPIC-Emma (UCLA, USA)
+  - domain: 2-1/2D electromagnetic particle-in-cell code
+  - [repository](https://github.com/UCLA-Plasma-Simulation-Group/upic-emma-2.0)
+  - maintainer: F Tsung @tsung1029
+  - original author: V Decyk
+  - status: implemented
+
 ### Data Processing and Visualization
 
 - [openPMD-viewer](https://github.com/openPMD/openPMD-viewer) (LBNL, CFEL Hamburg University)
@@ -125,7 +132,7 @@ Please check the individual repositories and feel free to contribute.
         - 1.4.0+: full API available to fulfill the standard (read+write)
 
 - [Fortran openPMD writer](https://github.com/UCLA-Plasma-Simulation-Group/Fortran-OpenPMD-File-Writers) (UCLA, USA)
-  - domain: Fortran 2003 HDF5 File Writers in openPMD Standard 
+  - domain: Fortran 2003 HDF5 File Writers in openPMD Standard
   - [repository](https://github.com/UCLA-Plasma-Simulation-Group/Fortran-OpenPMD-File-Writers)
   - maintainer: Weiming An @caozigao
   - status: openPMD 1.0 implemented
