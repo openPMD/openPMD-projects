@@ -62,7 +62,7 @@ the work provided in those for our format handling.
 
 - UPIC-Emma (UCLA, USA)
   - domain: 2-1/2D electromagnetic particle-in-cell code
-  - [repository](https://github.com/UCLA-Plasma-Simulation-Group/upic-emma-2.0)
+  - [repository](https://github.com/UCLA-Plasma-Simulation-Group/upic-emma-2.0) (UCLA-NC)
   - maintainer: F Tsung @tsung1029
   - original author: V Decyk
   - status: implemented
@@ -133,7 +133,7 @@ Please check the individual repositories and feel free to contribute.
 
 - [Fortran openPMD writer](https://github.com/UCLA-Plasma-Simulation-Group/Fortran-OpenPMD-File-Writers) (UCLA, USA)
   - domain: Fortran 2003 HDF5 File Writers in openPMD Standard
-  - [repository](https://github.com/UCLA-Plasma-Simulation-Group/Fortran-OpenPMD-File-Writers)
+  - [repository](https://github.com/UCLA-Plasma-Simulation-Group/Fortran-OpenPMD-File-Writers) (UCLA-NC)
   - maintainer: Weiming An @caozigao
   - status: openPMD 1.0 implemented
 
