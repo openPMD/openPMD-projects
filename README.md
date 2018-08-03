@@ -144,7 +144,7 @@ Please check the individual repositories and feel free to contribute.
 - [ADIOS](https://www.olcf.ornl.gov/center-projects/adios/) (ORNL, United States; `third party`)
   - domain: libraries for reading & writing the HDF5 format C/C++/Fortran/Java/Python
   - [repository](https://github.com/ornladios/ADIOS) (BSD-3-Clause-DOE)
-  - maintainer: N Podhorszki @pnobert, S Klasky @sklasky at al.
+  - maintainers: N Podhorszki @pnobert, S Klasky @sklasky at al.
 
 - [h5py](http://www.h5py.org/) (`third party`)
   - domain: python bindings for HDF5
@@ -161,14 +161,19 @@ A non-complete list of third party software for your consideration:
 - openPMD-validator (HZDR, LBNL)
   - domain: scripts and python module to validate files according to the `openPMD standard`
   - [repository](https://github.com/openPMD/openPMD-validator) (ISC)
-  - maintainer: A Huebl @ax3l, R Lehe @RemiLehe
+  - maintainers: A Huebl @ax3l, R Lehe @RemiLehe
   - status: implemented (base standard + ED-PIC)
 
 - openPMD-updater (HZDR, LBNL)
   - domain: scripts and python module to update openPMD files to newer versions of the `openPMD standard`
   - [repository](https://github.com/openPMD/openPMD-updater) (ISC)
-  - maintainer: A Huebl @ax3l, R Lehe @RemiLehe
+  - maintainers: A Huebl @ax3l, R Lehe @RemiLehe
   - status: currently implementing update routines for openPMD 1.0/1.1 to (upcoming) openPMD 2.0
+
+- openPMD-converter
+  - domain: copy converters from and to openPMD, e.g. for tools/frameworks/applications without native openPMD support
+  - [repository](https://github.com/openPMD/openPMD-converter)
+  - maintainers: various
 
 - [HDF Compass](https://github.com/HDFGroup/hdf-compass) (HDF Group; `third party`)
   - domain: viewer for HDF5 and related formats
@@ -201,18 +206,3 @@ A non-complete list of third party software for your consideration:
   - maintainer: originally by PIConGPU team
   - status: [needs adjustments for openPMD 1.0.0](https://github.com/ComputationalRadiationPhysics/picongpu/issues/1446)
 
-- XDMF file creation
-  - domain: light-weight, xml meta file creation for (serial) reading in VTK (e.g., ParaView, VisIt)
-  - [repository](https://github.com/openPMD/openPMD-converter)
-  - note: XDMF is a `third party` meta file format compatible with openPMD
-  - maintainers: originally by PIConGPU team
-  - status: [needs adjustments for openPMD 1.0.0](https://github.com/openPMD/openPMD-converter/issues/1)
-
-- VizSchema or Visualization Schema additions
-  - domain: light-weight, in-file attribute creation for (serial) reading in
-            VTK (e.g., ParaView, VisIt)
-  - [repository](https://github.com/openPMD/openPMD-converter)
-  - note: VizSchema and Visualization Schema are two independent,
-          `third party` file markups compatible with openPMD
-  - maintainers: *nobody yet*
-  - status: [planned](https://github.com/openPMD/openPMD-converter/issues/2)
