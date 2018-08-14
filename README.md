@@ -60,6 +60,15 @@ the work provided in those for our format handling.
   - original author: A Grund @Flamefire
   - status: implemented (base standard for X-ray laser & density profiles)
 
+- OSIRIS (UCLA, USA and IST, Portugal)
+  - domain: electro-dynamic particle-in-cell code
+  - repository: closed, available through MoU
+  - maintainers: OSIRIS Consortium (UCLA/IST)
+  - original author: R G Hemker (UCLA)
+  - an openPMD fork for OSIRIS 4.0 is available from UCLA; existing grid data
+    can be converted from the previous OSIRIS file format to openPMD format by
+    using the python library https://github.com/Wen-Han/pyVisOS
+
 - UPIC-Emma (UCLA, USA)
   - domain: 2-1/2D electromagnetic particle-in-cell code
   - [repository](https://github.com/UCLA-Plasma-Simulation-Group/upic-emma-2.0) (UCLA-NC)
