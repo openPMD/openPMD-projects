@@ -76,6 +76,24 @@ the work provided in those for our format handling.
   - original author: V Decyk
   - status: implemented
 
+- Sirepo/Warp PBA (RadiaSoft, USA)
+  - domain: 2-1/2D r-z electromagnetic PIC for beam-plasma and laser-plasma
+  - [repository](https://github.com/radiasoft/sirepo)
+  - [free use](https://www.sirepo.com/warppba)
+  - maintainers: P Moeller @moellep, R Nagler @robnagler, D Bruhwiler @bruhwiler
+  - original UI authors: P Moeller @moellep, R Nagler @robnagler
+  - original code authors: JL Vay @jlvay, D Grote @dpgrote
+  - status: implemented
+
+- Sirepo/Warp VND (RadiaSoft, USA)
+  - domain: 2D and 3D Cartesian electrostatic PIC with complex boundaries and dielectrics
+  - [repository](https://github.com/radiasoft/sirepo)
+  - [free use](https://www.sirepo.com/warpvnd)
+  - maintainers: P Moeller @moellep, R Nagler @robnagler, N Cook @ncook882
+  - original UI authors: P Moeller @moellep, R Nagler @robnagler, N Cook @ncook882
+  - original code authors: D Grote @dpgrote, JL Vay @jlvay
+  - status: implemented
+
 ### Data Processing and Visualization
 
 - [openPMD-viewer](https://github.com/openPMD/openPMD-viewer) (LBNL, CFEL Hamburg University)
