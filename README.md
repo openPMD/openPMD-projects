@@ -163,7 +163,7 @@ Please check the individual repositories and feel free to contribute.
   - maintainers: F Poeschel @franzpoeschel, A Huebl @ax3l
   - status:
     - implemented: ADIOS1, ADIOS2, HDF5 and JSON for base standard (1.0.0-1.1.0)
-  - superseds our legacy C++ library:
+  - supersedes our legacy C++ library:
     - [libSplash](https://github.com/ComputationalRadiationPhysics/libSplash) (TU Dresden/HZDR, Germany)
       - domain: high-level C++ HDF5 library for mesh and particle records
       - [repository](https://github.com/ComputationalRadiationPhysics/libSplash) (LGPLv3+)
