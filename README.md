@@ -40,6 +40,12 @@ the work provided in those for our format handling.
   - maintainers: JL Vay @jlvay, D Grote @dpgrote, R Lehe @RemiLehe et al.
   - status: implemented (base standard + ED-PIC)
 
+- [WarpX](https://ecp-warpx.github.io) (LBNL & LLNL, United States)
+  - domain: electro-dynamic/static particle-in-cell code
+  - [repository](https://github.com/ECP-WarpX/WarpX) (BSD-3-Clause-LBNL)
+  - maintainers: JL Vay @jlvay, D Grote @dpgrote, R Lehe @RemiLehe, M Thevenet @MaxThevenet, A Huebl @ax3l et al.
+  - status: implemented (base standard + ED-PIC)
+
 - [FBPIC](http://fbpic.github.io) (LBNL, CFEL Hamburg University)
   - domain: electro-dynamic particle-in-cell code with spetral solver and
             Fourier-Bessel decomposition in cylindrical geometry
