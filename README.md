@@ -133,13 +133,21 @@ the work provided in those for our format handling.
   - [plugin repository](https://github.com/jfavre/ParaViewDev)
   - maintainers: Kitware
     (CSCS: reader plugin contribution by J Favre @jfavre)
-  - status: implementing an ADIOS1 reader plugin (HDF5 planned) for base standard
+  - status: implementing an ADIOS reader plugin (HDF5 planned) for base standard
 
 - [postpic](https://github.com/skuschel/postpic) (U Jena, Germany)
   - domain: post-processing and visualization tool for particle-in-cell data
   - [repository](https://github.com/skuschel/postpic) (GPLv3+)
   - maintainer: S Kuschel @skuschel
   - status: implemented (HDF5 reader for base standard + ED-PIC)
+
+- [PlasmaPy](https://www.plasmapy.org) ([Members](https://www.plasmapy.org/acknowledging), `third party`)
+  - domain: plasma physics analysis
+  - [repository](https://github.com/PlasmaPy/plasmapy) (BSD-3-Clause)
+  - maintainers: Nick Murphy @namurphy, Dominik Stańczak @StanczakDominik et al.
+    (reader implemented by Ritiek Malhotra @ritiek)
+  - status:
+    - 0.2.0+: implemented (HDF5 reader for base standard: 1.0.0-1.0.1)
 
 Note: For third-party frameworks, the general idea is to implement our readers
 [upstream](https://en.wikipedia.org/wiki/Upstream_%28software_development%29)
@@ -150,13 +158,12 @@ Please check the individual repositories and feel free to contribute.
 ### Libraries
 
 - [openPMD-api](https://openpmd-api.readthedocs.io/) (HZDR, Germany)
-  - domain: C++ & Python API for writing & reading (H5, BP, ...), serial & parallel (MPI)
+  - domain: C++ & Python API for writing & reading (BP, HDF5, JSON, ...), serial & parallel (MPI)
   - [repository](https://github.com/openPMD/openPMD-api) (LGPLv3+)
-  - maintainers: F Koller @C0nsultant, A Huebl @ax3l
+  - maintainers: F Poeschel @franzpoeschel, A Huebl @ax3l
   - status:
-    - implemented: HDF5 serial & parallel C++ API for base standard (1.0.0 - 1.1.0)
-    - first stable release soon
-  - will supersede our legacy C++ library:
+    - implemented: ADIOS1, ADIOS2, HDF5 and JSON for base standard (1.0.0-1.1.0)
+  - superseds our legacy C++ library:
     - [libSplash](https://github.com/ComputationalRadiationPhysics/libSplash) (TU Dresden/HZDR, Germany)
       - domain: high-level C++ HDF5 library for mesh and particle records
       - [repository](https://github.com/ComputationalRadiationPhysics/libSplash) (LGPLv3+)
