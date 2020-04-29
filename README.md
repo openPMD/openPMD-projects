@@ -117,23 +117,24 @@ the work provided in those for our format handling.
                  (HZDR: openPMD reader contribution by @C0nsultant)
   - status:
     - 3.4.0+: implemented (HDF5 reader for base standard: 1.0.0-1.0.1)
-    - 3.5.0+: upcoming (HDF5 reader for base standard: 1.0.0-1.1.0)
+    - 3.5.0+: implemented (HDF5 reader for base standard: 1.0.0-1.1.0)
 
 - [VisIt](https://visit.llnl.gov) (LLNL, `third party`)
   - domain: analysis and visualization
   - [repository](http://www.visitusers.org/index.php?title=Version_Control) (BSD-3-Clause)
   - [plugin repository](https://github.com/openPMD/openPMD-visit-plugin) (BSD-3-Clause-LBNL)
   - maintainers: VisIt collaborators
-    (LBNL: reader plugin contribution by M Lobet @xxirii, ORNL: support by D Pugmire)
-  - status: implemented HDF5 reader plugin (ADIOS planned) for base standard
+    (LBNL: reader plugin contribution by M Lobet @xxirii, ORNL: mainlined by D Pugmire @dpugmire)
+  - status:
+    - 3.1.0+: implemented (HDF5 reader for base standard: 1.0.0-1.1.0)
+    - future: generalize to openPMD-api reader (ADIOS, HDF5, JSON)
 
 - [ParaView](https://www.paraview.org/) (Kitware, `third party`)
   - domain: analysis and visualization
   - [repository](https://gitlab.kitware.com/paraview/paraview) (BSD-3-Clause)
-  - [plugin repository](https://github.com/jfavre/ParaViewDev)
   - maintainers: Kitware
-    (CSCS: reader plugin contribution by J Favre @jfavre)
-  - status: implementing an ADIOS reader plugin (HDF5 planned) for base standard
+    (reader plugin contribution by B Geveci @berkgeveci and A Huebl @ax3l)
+  - status: implementing an openPMD-api reader plugin (ADIOS, HDF5, JSON) for base standard
 
 - [postpic](https://github.com/skuschel/postpic) (U Jena, Germany)
   - domain: post-processing and visualization tool for particle-in-cell data
