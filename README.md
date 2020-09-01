@@ -158,7 +158,7 @@ Please check the individual repositories and feel free to contribute.
 
 ### Libraries
 
-- [openPMD-api](https://openpmd-api.readthedocs.io/) (HZDR, Germany)
+- [openPMD-api](https://openpmd-api.readthedocs.io/) (HZDR, Germany and LBNL, USA)
   - domain: C++ & Python API for writing & reading (BP, HDF5, JSON, ...), serial & parallel (MPI)
   - [repository](https://github.com/openPMD/openPMD-api) (LGPLv3+)
   - maintainers: F Poeschel @franzpoeschel, A Huebl @ax3l
