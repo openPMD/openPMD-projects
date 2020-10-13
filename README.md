@@ -136,6 +136,12 @@ the work provided in those for our format handling.
     (reader plugin contribution by B Geveci @berkgeveci and A Huebl @ax3l)
   - status: implementing an openPMD-api reader plugin (ADIOS, HDF5, JSON) for base standard
 
+- [VisualPIC](https://github.com/AngelFP/VisualPIC) (DESY, Germany)
+  - post-processing and visualization tool for particle-in-cell data
+  - [repository](https://github.com/AngelFP/VisualPIC) (GPLv3+)
+  - maintainer: A Ferran Pousa @AngelFP
+  - status: implemented (reads data via openPMD-viewer)
+  
 - [postpic](https://github.com/skuschel/postpic) (U Jena, Germany)
   - domain: post-processing and visualization tool for particle-in-cell data
   - [repository](https://github.com/skuschel/postpic) (GPLv3+)
