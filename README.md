@@ -136,6 +136,12 @@ the work provided in those for our format handling.
     (reader plugin contribution by B Geveci @berkgeveci and A Huebl @ax3l)
   - status: implementing an openPMD-api reader plugin (ADIOS, HDF5, JSON) for base standard
 
+- [VisualPIC](https://github.com/AngelFP/VisualPIC) (DESY, Germany)
+  - high-level Python API (+GUI) for data analysis and interactive 2D/3D visualization
+  - [repository](https://github.com/AngelFP/VisualPIC) (GPLv3+)
+  - maintainer: A Ferran Pousa @AngelFP
+  - status: implemented (reads data via openPMD-viewer)
+  
 - [postpic](https://github.com/skuschel/postpic) (U Jena, Germany)
   - domain: post-processing and visualization tool for particle-in-cell data
   - [repository](https://github.com/skuschel/postpic) (GPLv3+)
@@ -246,4 +252,3 @@ A non-complete list of third party software for your consideration:
   - [repository](https://github.com/ComputationalRadiationPhysics/picongpu/tree/master/src/tools/png2gas) (GPLv3+)
   - maintainer: originally by PIConGPU team
   - status: [needs adjustments for openPMD 1.0.0](https://github.com/ComputationalRadiationPhysics/picongpu/issues/1446)
-
