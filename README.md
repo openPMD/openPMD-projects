@@ -53,6 +53,12 @@ the work provided in those for our format handling.
   - maintainers: R Lehe @RemiLehe, M Kirchen @MKirchen et al.
   - status: implemented (base standard + ED-PIC)
 
+- [Wake-T](https://github.com/AngelFP/Wake-T) (DESY, Germany)
+  - domain: fast particle-tracking code for plasma-based accelerators
+  - [repository](https://github.com/AngelFP/Wake-T) (GPLv3+)
+  - maintainers: A Ferran Pousa @AngelFP
+  - status: implemented (base standard)
+
 - SIMEX Platform (EUCALL, European XFEL)
   - domain: software platform for simulation of advanced photon experiments
   - [repository](https://github.com/eucall-software/simex_platform) (GPLv3+)
@@ -137,7 +143,7 @@ the work provided in those for our format handling.
   - status: implementing an openPMD-api reader plugin (ADIOS, HDF5, JSON) for base standard
 
 - [VisualPIC](https://github.com/AngelFP/VisualPIC) (DESY, Germany)
-  - high-level Python API (+GUI) for data analysis and interactive 2D/3D visualization
+  - domain: high-level Python API (+GUI) for data analysis and interactive 2D/3D visualization
   - [repository](https://github.com/AngelFP/VisualPIC) (GPLv3+)
   - maintainer: A Ferran Pousa @AngelFP
   - status: implemented (reads data via openPMD-viewer)
@@ -155,6 +161,12 @@ the work provided in those for our format handling.
     (reader implemented by Ritiek Malhotra @ritiek)
   - status:
     - 0.2.0+: implemented (HDF5 reader for base standard: 1.0.0-1.0.1)
+    
+- [APtools](https://github.com/AngelFP/APtools) (DESY, Germany)
+  - domain: ollection of tools for accelerator physics
+  - [repository](https://github.com/AngelFP/APtools) (GPLv3+)
+  - maintainer: A Ferran Pousa @AngelFP
+  - status: implemented (read/write particle distributions following the base standard)
 
 Note: For third-party frameworks, the general idea is to implement our readers
 [upstream](https://en.wikipedia.org/wiki/Upstream_%28software_development%29)
