@@ -133,6 +133,7 @@ the work provided in those for our format handling.
     (LBNL: reader plugin contribution by M Lobet @xxirii, ORNL: mainlined by D Pugmire @dpugmire)
   - status:
     - 3.1.0+: implemented (HDF5 reader for base standard: 1.0.0-1.1.0)
+    - note: needs renaming of `.h5` files for detection to `.opmd`
     - future: generalize to openPMD-api reader (ADIOS, HDF5, JSON)
 
 - [ParaView](https://www.paraview.org/) (Kitware, `third party`)
@@ -140,7 +141,9 @@ the work provided in those for our format handling.
   - [repository](https://gitlab.kitware.com/paraview/paraview) (BSD-3-Clause)
   - maintainers: Kitware
     (reader plugin contribution by B Geveci @berkgeveci and A Huebl @ax3l)
-  - status: implementing an openPMD-api reader plugin (ADIOS, HDF5, JSON) for base standard
+  - status:
+    - 5.9+: implemented an openPMD-api reader plugin (ADIOS, HDF5, JSON) for base standard
+    - note: needs a helper text file ending on `.pmd` containing a line with the openPMD-api Series filename, e.g. `"data_%T.bp"`
 
 - [VisualPIC](https://github.com/AngelFP/VisualPIC) (DESY, Germany)
   - domain: high-level Python API (+GUI) for data analysis and interactive 2D/3D visualization
