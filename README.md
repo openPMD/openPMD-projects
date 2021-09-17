@@ -79,7 +79,7 @@ the work provided in those for our format handling.
   - original author: R G Hemker (UCLA)
   - an openPMD fork for OSIRIS 4.0 is available from UCLA; existing grid data
     can be converted from the previous OSIRIS file format to openPMD format by
-    using the python library https://github.com/Wen-Han/pyVisOS
+    using the python library https://github.com/UCLA-Plasma-Simulation-Group/pyVisOS
 
 - UPIC-Emma (UCLA, USA)
   - domain: 2-1/2D electromagnetic particle-in-cell code
@@ -170,6 +170,12 @@ the work provided in those for our format handling.
   - [repository](https://github.com/AngelFP/APtools) (GPLv3+)
   - maintainer: A Ferran Pousa @AngelFP
   - status: implemented (read/write particle distributions following the base standard)
+
+- [pyVisOS](https://github.com/UCLA-Plasma-Simulation-Group/pyVisOS) (UCLA, USA)
+  - domain: post-processing and visualization tool for particle-in-cell data
+  - [repository](https://github.com/UCLA-Plasma-Simulation-Group/pyVisOS) (BSD-3-Clause)
+  - maintainer: H. Wen (@Wen-Han)
+  - status: implemented 
 
 Note: For third-party frameworks, the general idea is to implement our readers
 [upstream](https://en.wikipedia.org/wiki/Upstream_%28software_development%29)
