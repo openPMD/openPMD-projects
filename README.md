@@ -142,7 +142,8 @@ the work provided in those for our format handling.
   - maintainers: Kitware
     (reader plugin contribution by B Geveci @berkgeveci and A Huebl @ax3l)
   - status:
-    - 5.9+: implemented an openPMD-api reader plugin (ADIOS, HDF5, JSON) for base standard
+    - 5.9+: implemented an openPMD-api reader plugin (ADIOS, HDF5, JSON) for base standard (particles & 3D meshes)
+    - 5.10+: added support for 1D and 2D meshes
     - note: needs a helper text file ending on `.pmd` containing a line with the openPMD-api Series filename, e.g. `"data_%T.bp"`
 
 - [VisualPIC](https://github.com/AngelFP/VisualPIC) (DESY, Germany)
