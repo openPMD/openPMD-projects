@@ -106,6 +106,12 @@ the work provided in those for our format handling.
   - original code authors: D Grote @dpgrote, JL Vay @jlvay
   - status: implemented
 
+- [HiPACE++](https://hipace.readthedocs.io) (DESY, LBNL)
+  - domain: 3D GPU-capable quasi-static particle-in-cell code for plasma acceleration
+  - [repository](https://github.com/Hi-PACE/hipace) (BSD-3-Clause-LBNL)
+  - maintainers: M Thevenet @MaxThevenet, S Diederichs @SeverinDiederichs, A Huebl @ax3l et al.
+  - status: implemented
+
 ### Data Processing and Visualization
 
 - [openPMD-viewer](https://github.com/openPMD/openPMD-viewer) (LBNL, CFEL Hamburg University)
