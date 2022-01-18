@@ -112,6 +112,16 @@ the work provided in those for our format handling.
   - maintainers: M Thevenet @MaxThevenet, S Diederichs @SeverinDiederichs, A Huebl @ax3l et al.
   - status: implemented
 
+- ACE3P (SLAC, USA)
+  - domain: 3D parallel electromagnetics code suite
+  - repository: closed, available through MoU
+  - maintainers: Lixin Ge @lge, Cho-Kuen Ng @cho
+  - original code authors: Lixin Ge @lge, Cho-Kuen Ng @cho
+  - status:
+    - implemented – conversion tool for EM field on unstructured grid to structured grid (David A. Bizzozero, Ji Qiang, Lixin Ge, Zenghai Li, Cho-Kuen Ng Liling Xiao, "Multi-objective optimization with an integrated electromagnetics and beam dynamics workflow", Nuclear Inst. and Methods in Physics Research, A 1020 (2021) 165844).
+    - to be implemented - particles data on base standard.
+
+
 ### Data Processing and Visualization
 
 - [openPMD-viewer](https://github.com/openPMD/openPMD-viewer) (LBNL, CFEL Hamburg University)
