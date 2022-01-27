@@ -222,6 +222,13 @@ Please check the individual repositories and feel free to contribute.
   - maintainer: Weiming An @caozigao
   - status: openPMD 1.0 implemented
 
+- [openPMD-CCD](https://github.com/openPMD/openPMD-CCD) (LBNL, USA)
+  - domain: A Python Module + LabView bindings for Storing CCD Images with openPMD
+  - [repository](https://github.com/openPMD/openPMD-CCD) (BSD-3-Clause-LBNL)
+  - maintainers: A Huebl @ax3l, Anthony Gonsalves @ag6520
+  - status:
+    - implemented: HDF5 for base standard (1.0.0-1.1.0)
+
 - [HDF5](https://www.hdfgroup.org/HDF5/) (`third party`)
   - domain: libraries for reading & writing the HDF5 format C/C++/Fortran
   - maintainer: HDF Group
