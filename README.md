@@ -66,7 +66,7 @@ the work provided in those for our format handling.
   - status: implemented (base standard)
 
 - [LUME](https://www.lume.science) (SLAC, USA)
-  - domain: free-electron laser (FEL) modeling
+  - domain: particle accelerator & free-electron laser (FEL) modeling
   - repositories: https://github.com/ChristopherMayes?tab=repositories&q=lume
   - maintainers: C Mayes @ChristopherMayes et al.
   - status: implemented (base standard + BeamPhysics + Wavefront)
