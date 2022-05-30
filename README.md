@@ -59,11 +59,17 @@ the work provided in those for our format handling.
   - maintainers: A Ferran Pousa @AngelFP
   - status: implemented (base standard)
 
-- SIMEX Platform (EUCALL, European XFEL)
+- SimEx Platform (EUCALL, European XFEL)
   - domain: software platform for simulation of advanced photon experiments
   - [repository](https://github.com/eucall-software/simex_platform) (GPLv3+)
   - maintainer: C Fortmann-Grote @CFGrote
   - status: implemented (base standard)
+
+- [LUME](https://www.lume.science) (SLAC, USA)
+  - domain: free-electron laser (FEL) modeling
+  - repositories: https://github.com/ChristopherMayes?tab=repositories&q=lume
+  - maintainers: C Mayes @ChristopherMayes et al.
+  - status: implemented (base standard + BeamPhysics + Wavefront)
 
 - ParaTAXIS (HZDR, Germany)
   - domain: parallel tracer for arbitrary X-ray interaction and scattering
@@ -194,11 +200,18 @@ the work provided in those for our format handling.
   - maintainer: H. Wen (@Wen-Han)
   - status: implemented 
 
+- [openPMD-beamphysics](https://github.com/ChristopherMayes/openPMD-beamphysics) (SLAC, USA)
+  - domain: tools for analyzing and viewing particle accelerator data in the openPMD standard, extension beamphysics
+  - [repository](https://github.com/ChristopherMayes/openPMD-beamphysics) (Apache License 2.0)
+  - maintainers: C Mayes @ChristopherMayes et al.
+  - status: implemented (base standard + BeamPhysics)
+
 Note: For third-party frameworks, the general idea is to implement our readers
 [upstream](https://en.wikipedia.org/wiki/Upstream_%28software_development%29)
 as soon as they are working.
 
 Please check the individual repositories and feel free to contribute.
+
 
 ### Libraries
 
@@ -242,6 +255,7 @@ Please check the individual repositories and feel free to contribute.
   - domain: python bindings for HDF5
   - [repository](https://github.com/h5py/h5py)
   - maintainer: A Collette @andrewcollette et al.
+
 
 ### Tools & Converters
 
