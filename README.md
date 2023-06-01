@@ -137,6 +137,7 @@ the work provided in those for our format handling.
   - domain: accelerator modeling and simulation
   - [repository](https://github.com/fnalacceleratormodeling/synergia2)
   - current maintainers: [Eric Stern](https://github.com/egstern), [Marc Paterno](https://github.com/marcpaterno), [James Amundson](https://github.com/amundson), [Sajid Ali](https://github.com/s-sajid-ali)
+  - original code authors: James Amundson, Steve Goldhaber, Paul Lebrun, Qiming Lu, Alexandru Macridin, Leo Michelotti (CHEF libraries), Chong Shik Park, Panagiotis Spentzouris and Eric Stern
   - status: OpenPMD I/O is implemented for bunch I/O and statistics. Internal checkpoints still use custom HDF5 formats, but these would likely be moved to OpenPMD in the future.
 
 
