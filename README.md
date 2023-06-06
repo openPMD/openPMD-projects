@@ -133,6 +133,14 @@ the work provided in those for our format handling.
   - repository: https://bitbucket.org/eschnett/cactusamrex
   - status: openPMD is fully supported for reading/writing/checkpointing/recovery for 3D grids, including support for adaptive mesh refinement
 
+- [Synergia3](https://synergia.fnal.gov/) (FNAL, USA)
+  - domain: accelerator modeling and simulation
+  - [repository](https://github.com/fnalacceleratormodeling/synergia2)
+  - current maintainers: [Eric Stern](https://github.com/egstern), [Marc Paterno](https://github.com/marcpaterno), [James Amundson](https://github.com/amundson), [Sajid Ali](https://github.com/s-sajid-ali)
+  - original code authors: James Amundson, Steve Goldhaber, Paul Lebrun, Qiming Lu, Alexandru Macridin, Leo Michelotti (CHEF libraries), Chong Shik Park, Panagiotis Spentzouris and Eric Stern
+  - status: openPMD I/O is implemented for bunch I/O and statistics. Internal checkpoints still use custom HDF5 formats, but these would likely be moved to openPMD in the future.
+
+
 ### Data Processing and Visualization
 
 - [openPMD-viewer](https://github.com/openPMD/openPMD-viewer) (LBNL, CFEL Hamburg University)
