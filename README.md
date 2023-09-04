@@ -294,6 +294,11 @@ A non-complete list of third party software for your consideration:
   - [repository](https://github.com/openPMD/openPMD-converter)
   - maintainers: various
 
+- openPMD-resampler (ELI-NP)
+  - domain: Particle down-sampling and phase space visualization tools for post-processing in GEANT4/GPT/Wake-T etc.
+  - [repository](https://github.com/berceanu/openPMD-Resampler)
+  - maintainers: A Berceanu @berceanu
+
 - [HDF Compass](https://github.com/HDFGroup/hdf-compass) (HDF Group; `third party`)
   - domain: viewer for HDF5 and related formats
   - [repository](https://github.com/HDFGroup/hdf-compass) (BSD-3-Clause-HDF)
