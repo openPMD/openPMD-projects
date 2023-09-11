@@ -140,6 +140,12 @@ the work provided in those for our format handling.
   - original code authors: James Amundson, Steve Goldhaber, Paul Lebrun, Qiming Lu, Alexandru Macridin, Leo Michelotti (CHEF libraries), Chong Shik Park, Panagiotis Spentzouris and Eric Stern
   - status: openPMD I/O is implemented for bunch I/O and statistics. Internal checkpoints still use custom HDF5 formats, but these would likely be moved to openPMD in the future.
 
+- [MALA](https://mala-project.github.io/mala/) (CASUS, SNL)
+  - domain: ML models that replace density functional theory (DFT) calculations (materials learning algorithms)
+  - repository: https://github.com/mala-project/mala/ (BSD 3-Clause License)
+  - maintainers: Attila Cangi & Sivasankaran Rajamanickam (scientific supervision), Lenz Fiedler & Jon Vogel (code maintenance)
+  - status: openPMD implemented as a feature-complete alternative to the default Numpy I/O
+
 
 ### Data Processing and Visualization
 
