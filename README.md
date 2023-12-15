@@ -146,6 +146,12 @@ the work provided in those for our format handling.
   - maintainers: Attila Cangi & Sivasankaran Rajamanickam (scientific supervision), Lenz Fiedler & Jon Vogel (code maintenance)
   - status: openPMD implemented as a feature-complete alternative to the default Numpy I/O
 
+- [Quokka](https://quokka-astro.github.io/quokka/) (ANU, MSU)
+  - domain: radiation hydrodynamics for astrophysics
+  - repository: https://github.com/quokka-astro/quokka (MIT License)
+  - maintainers: [Mark Krumholz](https://www.mso.anu.edu.au/~krumholz/), [Ben Wibking](https://benwibking.github.io/)
+  - original author: [Ben Wibking](https://benwibking.github.io/)
+  - status: openPMD implemented for outputs (cell-centered only)
 
 ### Data Processing and Visualization
 
