@@ -231,6 +231,12 @@ the work provided in those for our format handling.
   - maintainers: C Mayes @ChristopherMayes et al.
   - status: implemented (base standard + BeamPhysics)
 
+- [PP Ana](https://git.gsi.de/d.bertini/pp-ana) (GSI)
+  - domain: parallel python post processor
+  - [repository](https://git.gsi.de/d.bertini/pp-ana)
+  - maintainers: Denis Bertini @denisbertini
+  - status: implemented (base standard)
+
 Note: For third-party frameworks, the general idea is to implement our readers
 [upstream](https://en.wikipedia.org/wiki/Upstream_%28software_development%29)
 as soon as they are working.
